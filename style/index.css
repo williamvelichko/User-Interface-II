@@ -19,7 +19,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -29,24 +29,39 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 *{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width: 100%;
+    border: 1px solid red;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height:1.5;
+    color:black;
+    background-color: #cb997e;
+    font-family: 'Irish Grover', cursive;
     
+}
+.head{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ h1{ 
+    
+    font-size:6rem;
+    margin-right: 10%;
+    }
+
+.destinations {
+  text-decoration: none;
+   display: flex;
+   justify-content: space-evenly;
+   font-size: 2rem;
 }
