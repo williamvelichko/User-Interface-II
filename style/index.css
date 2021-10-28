@@ -51,17 +51,57 @@ body{
 .head{
     display: flex;
     flex-wrap: wrap;
+    
 }
 
  h1{ 
     
     font-size:6rem;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: 1%;
+    
     }
 
 .destinations {
-  text-decoration: none;
+  
    display: flex;
    justify-content: space-evenly;
    font-size: 2rem;
+   margin-bottom: 2%;
+}
+a{
+
+    text-decoration: none;
+    color: black;
+    border: 1px solid #b7b7a4;
+    border-radius: 50%  ;
+    background-color: #b7b7a4;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+a:hover{
+    background-color: black;
+    border: 1px solid black;
+    color:#b7b7a4;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    
+}
+.mainimage{
+    width:40%;
+    
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    
+}
+.title h2{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 3rem;
+    margin-right:10%;
 }
