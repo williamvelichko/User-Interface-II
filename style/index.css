@@ -87,21 +87,17 @@ a:hover{
 }
 .second{
     display: flex;
-    flex-direction: row;
+    flex-direction: row;  
+    text-align: flex-end; 
+   
     
 }
-.mainimage{
-    width:40%;
+img{
+    width:50%;
     
 }
-.title{
-    display: flex;
-    flex-direction: column;
+
+   
     
-}
-.title h2{
-    display: flex;
-    justify-content: flex-end;
-    font-size: 3rem;
-    margin-right:10%;
-}
+
+
