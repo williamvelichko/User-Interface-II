@@ -35,7 +35,8 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width: 100%;
-    border: 1px solid red;
+    
+
 }
 html{
     font-size: 62.5%;
@@ -48,6 +49,7 @@ body{
     font-family: 'Irish Grover', cursive;
     
 }
+
 .head{
     display: flex;
     flex-wrap: wrap;
@@ -66,10 +68,13 @@ body{
   
    display: flex;
    justify-content: space-evenly;
-   font-size: 2rem;
-   margin-bottom: 2%;
+   font-size: 4rem;
+   margin-bottom: 4%;
+   margin-top: 2%;
+    
+   
 }
-a{
+.destinations a{
 
     text-decoration: none;
     color: black;
@@ -85,17 +90,141 @@ a:hover{
     border: 1px solid black;
     color:#b7b7a4;
 }
-.second{
+#second{
     display: flex;
     flex-direction: row;  
-    text-align: flex-end; 
+    margin-right: 2%;
+    
    
     
 }
 img{
-    width:50%;
+    width:95%;
     
 }
+.title{
+    width: 60%;
+    display: flex;
+     flex-direction: column;
+     text-align: center;
+     align-content: space-around;
+     justify-content: center;
+}
+ h2{
+     font-size: 4rem;
+ }
+ .project{
+     display: flex;
+          
+          align-self: center;   
+          }
+.project a{
+display: flex;
+  font-size: 3rem;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid #b7b7a4;
+  text-decoration: none;
+  background-color: #b7b7a4;
+  color: black;
+  border-radius: 40%;
+ }
+ .project a:hover{
+     color:#b7b7a4;
+     background-color: black;
+     border: 1px solid black;
+ }
+  p{
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 2.5rem;
+ }
+#middle{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%
+    
+}
+
+#middle img{
+    width:40%;
+    margin-top: 3%;
+    
+}
+.life {
+    display: flex;
+    flex-direction: row;
+    text-align: center  ;
+    justify-content: space-evenly;
+    
+   
+    
+    
+}
+.hobbies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.img1{
+    
+display: flex;
+flex-direction: column;
+text-align: center ;
+align-content: space-around;
+width: 50%;
+
+
+}
+.img1 img{
+    display: flex;
+    align-self: center;
+    flex:70%;
+    padding:5px;
+    
+}
+h3{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Zen Old Mincho', serif;
+    
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #e76f51;
+    margin-top: 2%;
+    
+}
+.info a{
+    background-color: #b7b7a4;
+    border-radius: 40%;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: black;
+    border:1px solid #b7b7a4;
+    
+    
+}
+.info{
+    margin-bottom: 3%;
+}
+.info a:hover{
+   color:#b7b7a4;
+   background-color: black;
+   border: 1px solid black ;
+   
+}
+.ending {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
 
    
     
