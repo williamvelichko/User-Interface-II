@@ -35,6 +35,7 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width: 100%;
+    border: 1px solid red;
     
 
 }
@@ -48,42 +49,63 @@ body{
     background-color: #cb997e;
     font-family: 'Irish Grover', cursive;
     
+    
+}
+header{
+   
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    height:15vh;
+    
+
+    
+    
 }
 
 .head{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+    
+
     
 }
 
  h1{ 
-    
-    font-size:6rem;
-    margin-left: 5%;
+     display: flex;
+    flex-wrap: wrap;
+    font-size: 5rem;
+   margin-right: 30%;
     margin-top: 1%;
     
     }
+    
 
 .destinations {
   
    display: flex;
-   justify-content: space-evenly;
+   flex-direction: row;
+   align-content: space-between;
    font-size: 4rem;
    margin-bottom: 4%;
    margin-top: 2%;
-    
    
+
 }
 .destinations a{
 
+     
     text-decoration: none;
     color: black;
     border: 1px solid #b7b7a4;
     border-radius: 50%  ;
     background-color: #b7b7a4;
-    width: 10%;
+    width: 50%;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
 }
 a:hover{
     background-color: black;
@@ -244,8 +266,15 @@ footer{
         font-size: 2.5rem;
     }
     .title{
-        margin-right: 6%;
+        margin-right: 3%;
+        margin-left: 2%;
         
+    }
+    #second{
+        margin-right: 0%;
+    }
+    h1{
+        justify-content: center;
     }
 }
 
@@ -255,6 +284,41 @@ footer{
 
 
 @media (max-width: 500px){
+   header{
+       width: 30%;
+   }
+    h1{
+       font-size: 5rem;
+   }
+
+   .head{
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+   }
+   .destinations{
+       flex-direction: column;
+   }
+   .destinations a{
+       width: 100%;
+   }
+   #second{
+       flex-direction: column;
+       margin-right: 0%;
+   }
+   img{
+       width: 100%;
+       margin-right: 0%;
+   }
+   .title{
+       width: 90%;
+       margin-left: 5%;
+       margin-right: 5%;
+         
+   }
+   .img1{
+       width: 100%;
+   }
     
 }
 
