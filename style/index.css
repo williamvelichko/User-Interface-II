@@ -56,7 +56,7 @@ header{
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
-    height:15vh;
+    
     
 
     
@@ -77,23 +77,26 @@ header{
      display: flex;
     flex-wrap: wrap;
     font-size: 5rem;
-   margin-right: 30%;
-    margin-top: 1%;
+   }
     
-    }
-    
-
+nav{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .destinations {
   
    display: flex;
    flex-direction: row;
-   align-content: space-between;
+   justify-content: space-between;
    font-size: 4rem;
    margin-bottom: 4%;
    margin-top: 2%;
-   
-
-}
+   width: 80%;
+   height: 8vh;
+   margin-top: 3.5%;
+   }
 .destinations a{
 
      
@@ -102,10 +105,11 @@ header{
     border: 1px solid #b7b7a4;
     border-radius: 50%  ;
     background-color: #b7b7a4;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    
+    
+    
+    
+     
 }
 a:hover{
     background-color: black;
@@ -276,6 +280,12 @@ footer{
     h1{
         justify-content: center;
     }
+    .destinations{
+        width:80%;
+        font-size: 3rem;
+        margin-top:4.5rem;
+        height: 6vh;
+    }
 }
 
 
@@ -284,9 +294,7 @@ footer{
 
 
 @media (max-width: 500px){
-   header{
-       width: 30%;
-   }
+   
     h1{
        font-size: 5rem;
    }
@@ -298,10 +306,20 @@ footer{
    }
    .destinations{
        flex-direction: column;
+       margin-top: 0%;
+       width: 100%;
+       height: 25vh;
+       align-self: center;
    }
    .destinations a{
-       width: 100%;
-   }
+       width: 50%;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       align-content: center;
+       align-self: center  ;
+
+        }
    #second{
        flex-direction: column;
        margin-right: 0%;
@@ -317,8 +335,31 @@ footer{
          
    }
    .img1{
-       width: 100%;
+      width:80%;
+      margin-right: 0%;
+      
+       
    }
+   nav{
+       height: 25vh;
+       flex-direction: column;
+       justify-content: flex-start;
+       
+      
+   }
+   .life{
+       flex-wrap:  wrap;
+      
+   }
+   .hobbies{
+       flex-wrap: wrap;
+   }
+
+
+
+
+
+
     
 }
 
